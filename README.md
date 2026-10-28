@@ -1,10 +1,10 @@
 # Healthcare Application Backend (Django & DRF)
 
-A robust healthcare management REST API built with **Django**, **Django REST Framework (DRF)**, **SimpleJWT**, and **PostgreSQL**.
+A healthcare management REST API built with **Django**, **Django REST Framework (DRF)**, **SimpleJWT**, and **PostgreSQL**.
 
----
 
-## 📁 Project Structure
+
+## Project Structure
 
 ```text
 healthcare_project/
@@ -40,7 +40,7 @@ healthcare_project/
 
 ---
 
-## 📦 Required Dependencies (`requirements.txt`)
+##  Required Dependencies (`requirements.txt`)
 
 ```text
 Django>=4.2,<6.0
@@ -57,16 +57,16 @@ pip install -r requirements.txt
 
 ---
 
-## ⚙️ 1. Setting Up the `.env` File
+##  1. Setting Up the `.env` File
 
 At the root of the project, a `.env` file is used to store sensitive settings and credentials.
 
 ### Example `.env` contents:
 
 ```env
-# =============================================================================
+
 # Healthcare Project Environment Configuration
-# =============================================================================
+
 
 # Django Secret Key and Debug Mode
 SECRET_KEY=django-insecure-healthcare-system-development-secret-key-2026-safe-production
@@ -99,7 +99,7 @@ JWT_REFRESH_TOKEN_LIFETIME_DAYS=1
 
 ---
 
-## 🚀 2. Database Creation & Running Migrations
+##  2. Database Creation & Running Migrations
 
 ### Step A: Create the Database
 Because PostgreSQL requires `CREATE DATABASE` to run outside a transaction block (autocommit mode), run the included helper script:
@@ -134,7 +134,7 @@ The server will start at: `http://127.0.0.1:8000/`
 
 ---
 
-## 📮 3. Testing the Endpoints Using Postman
+## 3. Testing the Endpoints Using Postman
 
 **Base URL**: `http://127.0.0.1:8000/api/`
 
@@ -399,7 +399,7 @@ The server will start at: `http://127.0.0.1:8000/`
 
 ---
 
-## 🧪 4. Running the Automated Test Suite
+##  4. Running the Automated Test Suite
 
 To verify all endpoints, permissions, serializers, and models:
 
