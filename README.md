@@ -1,13 +1,14 @@
 # Healthcare Application Backend (Django & DRF)
 
 A healthcare management REST API built with **Django**, **Django REST Framework (DRF)**, **SimpleJWT**, and **PostgreSQL**.
-Key Features
 
-  **Secure Authentication:** Token-based authentication (JSON Web Tokens) for protected API endpoints.
-  **Relational Mapping:** Robust Patient-Doctor many-to-many relationship mapping.
-  **Data Pagination:** Built-in endpoint pagination (10 items per page) for optimized database querying.
-  **Interactive Documentation:** Auto-generated Swagger UI integration for seamless API testing and exploration.
-  **Environment Security:** Credential management using `python-dotenv` to ensure sensitive database configurations remain secure.
+##  Key Features
+
+*   **Secure Authentication:** Token-based authentication (JSON Web Tokens) for protected API endpoints.
+*   **Relational Mapping:** Robust Patient-Doctor many-to-many relationship mapping.
+*   **Data Pagination:** Built-in endpoint pagination (10 items per page) for optimized database querying.
+*   **Interactive Documentation:** Auto-generated Swagger UI integration for seamless API testing and exploration.
+*   **Environment Security:** Credential management using `python-dotenv` to ensure sensitive database configurations remain secure.
 
 
 ## Project Structure
