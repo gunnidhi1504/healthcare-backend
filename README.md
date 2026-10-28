@@ -4,7 +4,7 @@ A healthcare management REST API built with **Django**, **Django REST Framework 
 
 
 
-## 📁 Project Structure
+## Project Structure
 
 ```text
 healthcare_project/
