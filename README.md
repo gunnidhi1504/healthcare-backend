@@ -134,7 +134,7 @@ The server will start at: `http://127.0.0.1:8000/`
 
 ---
 
-## 📮 3. Testing the Endpoints Using Postman
+## 3. Testing the Endpoints Using Postman
 
 **Base URL**: `http://127.0.0.1:8000/api/`
 
