@@ -1,5 +1,4 @@
 # Healthcare Application Backend (Django & DRF)
-http://127.0.0.1:8000/api/docs/#/
 
 A healthcare management REST API built with **Django**, **Django REST Framework (DRF)**, **SimpleJWT**, and **PostgreSQL**.
 
